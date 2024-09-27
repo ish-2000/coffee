@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginScreen">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="585dp"
+        android:layout_height="828dp"
+        android:layout_marginStart="-25dp"
+        android:layout_marginEnd="-25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.034"
+        app:srcCompat="@drawable/zz"
+        android:alpha="2.0
+" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="4dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="-16dp">
+
+        <EditText
+            android:id="@+id/Lusername"
+            android:layout_width="320dp"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:layout_height="57dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="250dp"
+            android:height="30dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="@string/enter_username"
+            android:inputType="text"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textColorHint="#B1ADAD" />
+
+        <EditText
+            android:id="@+id/Lpassword"
+            android:layout_width="323dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:hint="@string/enter_password"
+            android:inputType="textPassword"
+            android:textColor="#000000"
+            android:textColorHint="#B1ADAD" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/fogot_password"
+            android:textColor="#FDFDFD" />
+
+        <Button
+            android:id="@+id/Lbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:backgroundTint="@color/btn"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="70dp"
+            android:textColor="@color/white"
+            android:text="@string/login" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="158dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/dont_you_have_acount"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="138dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="@string/signup"
+                android:textColor="#3F51B5" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

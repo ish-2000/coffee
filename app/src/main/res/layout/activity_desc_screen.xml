@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="@color/bgmain"
+    android:layout_height="match_parent"
+    tools:context=".DescScreen">
+
+
+    <ImageView
+        android:id="@+id/content"
+        android:layout_width="412dp"
+        android:layout_height="413dp"
+        android:src="@drawable/cap"
+        android:translationY="-80dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:translationY="-100dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/st8"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/st7"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:layout_marginStart="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/st6"
+                android:textSize="20sp"
+                android:layout_marginEnd="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/st5"
+            android:layout_marginTop="30dp"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/st4"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/st3"
+            android:layout_marginStart="20dp"
+            android:textSize="22sp"
+            android:layout_marginTop="35dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:paddingLeft="20dp"
+                    android:layout_gravity="center"
+                    android:paddingRight="20dp"
+                    android:textColor="@color/white"
+                    android:text="@string/st2"
+                    android:textSize="18sp"
+                    android:backgroundTint="@color/siss"
+                    app:cornerRadius="5dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:textSize="18sp"
+                    android:backgroundTint="@color/siss"
+                    android:text="@string/medium"
+                    android:textColor="@color/white"
+                    app:cornerRadius="5dp" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:paddingLeft="20dp"
+                    android:textSize="18sp"
+                    android:backgroundTint="@color/siss"
+                    android:paddingRight="20dp"
+                    android:text="@string/st1"
+                    android:textColor="@color/white"
+                    app:cornerRadius="5dp" />
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:gravity="center"
+            android:layout_marginEnd="20dp"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/btn"
+                android:textColor="@color/white"
+                android:text="@string/add_to_cart1" />
+
+            <View
+                android:layout_width="50dp"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:backgroundTint="@color/btn"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="@string/add_to_cart" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

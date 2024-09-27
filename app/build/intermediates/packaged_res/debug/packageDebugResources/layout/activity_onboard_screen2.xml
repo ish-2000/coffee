@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="@drawable/ab"
+    android:layout_height="match_parent"
+    tools:context=".OnboardScreen2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="#7E2C2524"
+            android:padding="10dp"
+            android:text="Customize your \n order"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="45sp"
+            app:cornerRadius="15dp" />
+
+        <Button
+            android:id="@+id/next2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:paddingStart="90dp"
+            android:textSize="22sp"
+            android:backgroundTint="@color/btn"
+            android:paddingEnd="90dp"
+            android:layout_marginBottom="40dp" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
