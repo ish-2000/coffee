@@ -23,42 +23,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ishar\\Desktop\\MAD\\Mobile App\\cofee app\\MyApplication\\coffee\\app\\src\\main\\res\\values\\themes.xml",
-                    "from": {
-                        "startLines": "2,7",
-                        "startColumns": "4,4",
-                        "startOffsets": "102,335",
-                        "endLines": "5,7",
-                        "endColumns": "12,74",
-                        "endOffsets": "327,405"
-                    },
-                    "to": {
-                        "startLines": "2588,6576",
-                        "startColumns": "4,4",
-                        "startOffsets": "181292,460968",
-                        "endLines": "2591,6576",
-                        "endColumns": "12,73",
-                        "endOffsets": "181408,461037"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\ishar\\Desktop\\MAD\\Mobile App\\cofee app\\MyApplication\\coffee\\app\\src\\main\\res\\values\\launcherapp_background.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endColumns": "56",
-                        "endOffsets": "109"
-                    },
-                    "to": {
-                        "startLines": "706",
-                        "startColumns": "4",
-                        "startOffsets": "37253",
-                        "endColumns": "56",
-                        "endOffsets": "37305"
-                    }
-                },
-                {
                     "source": "C:\\Users\\ishar\\.gradle\\caches\\transforms-4\\644f56ef73c66b9d429b527810898a98\\transformed\\lifecycle-runtime-2.6.2\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -171,20 +135,54 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ishar\\Desktop\\MAD\\Mobile App\\cofee app\\MyApplication\\coffee\\app\\src\\main\\res\\values\\launcher_background.xml",
+                    "source": "C:\\Users\\ishar\\Documents\\GitHub\\coffee\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "5,6,2,7,8,4,3",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "187,225,57,267,306,143,100",
+                        "endColumns": "36,40,41,37,38,42,41",
+                        "endOffsets": "219,261,94,300,340,181,137"
+                    },
+                    "to": {
+                        "startLines": "641,642,643,650,960,961,968",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "32859,32896,32937,33505,56412,56451,56901",
+                        "endColumns": "36,40,41,37,38,42,41",
+                        "endOffsets": "32891,32932,32974,33538,56446,56489,56938"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ishar\\Documents\\GitHub\\coffee\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,5,22,1,21,24,19,16,15,17,23,18,2,3,26,14,20,6,7,8,9,10,11,12,13,27,25",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "147,200,1104,17,1053,1194,938,779,720,838,1153,897,70,108,1302,682,1010,254,289,324,362,503,548,591,638,1345,1245",
+                        "endColumns": "51,52,47,51,49,49,70,57,57,57,39,39,36,37,41,36,41,33,33,36,139,43,41,45,42,47,55",
+                        "endOffsets": "194,248,1147,64,1098,1239,1004,832,773,891,1188,932,102,141,1339,714,1047,283,318,356,497,542,585,632,676,1388,1296"
+                    },
+                    "to": {
+                        "startLines": "1986,1987,1988,1990,2005,2006,2011,2012,2013,2021,2025,2026,2065,2134,2140,2141,2150,2151,2152,2153,2154,2155,2156,2157,2158,2160,2161",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "131326,131378,131431,131562,133364,133414,133841,133912,133970,134656,135080,135120,140209,150710,151550,151592,152538,152580,152614,152648,152685,152825,152869,152911,152957,153071,153119",
+                        "endColumns": "51,52,47,51,49,49,70,57,57,57,39,39,36,37,41,36,41,33,33,36,139,43,41,45,42,47,55",
+                        "endOffsets": "131373,131426,131474,131609,133409,133459,133907,133965,134023,134709,135115,135155,140241,150743,151587,151624,152575,152609,152643,152680,152820,152864,152906,152952,152995,153114,153170"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ishar\\Documents\\GitHub\\coffee\\app\\src\\main\\res\\values\\ic_launcher_background.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "57",
-                        "endColumns": "53",
-                        "endOffsets": "106"
+                        "endColumns": "56",
+                        "endOffsets": "109"
                     },
                     "to": {
-                        "startLines": "705",
+                        "startLines": "704",
                         "startColumns": "4",
-                        "startOffsets": "37199",
-                        "endColumns": "53",
-                        "endOffsets": "37248"
+                        "startOffsets": "37142",
+                        "endColumns": "56",
+                        "endOffsets": "37194"
                     }
                 },
                 {
@@ -204,6 +202,59 @@
                         "endLines": "109,9282,11247,11331",
                         "endColumns": "60,12,24,24",
                         "endOffsets": "5821,643508,714992,719508"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ishar\\Documents\\GitHub\\coffee\\app\\src\\main\\res\\values\\launcher_background.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "53",
+                        "endOffsets": "106"
+                    },
+                    "to": {
+                        "startLines": "705",
+                        "startColumns": "4",
+                        "startOffsets": "37199",
+                        "endColumns": "53",
+                        "endOffsets": "37248"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ishar\\Documents\\GitHub\\coffee\\app\\src\\main\\res\\values\\launcherapp_background.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "56",
+                        "endOffsets": "109"
+                    },
+                    "to": {
+                        "startLines": "706",
+                        "startColumns": "4",
+                        "startOffsets": "37253",
+                        "endColumns": "56",
+                        "endOffsets": "37305"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ishar\\Documents\\GitHub\\coffee\\app\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "2,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "102,335",
+                        "endLines": "5,7",
+                        "endColumns": "12,74",
+                        "endOffsets": "327,405"
+                    },
+                    "to": {
+                        "startLines": "2588,6576",
+                        "startColumns": "4,4",
+                        "startOffsets": "181292,460968",
+                        "endLines": "2591,6576",
+                        "endColumns": "12,73",
+                        "endOffsets": "181408,461037"
                     }
                 },
                 {
@@ -238,40 +289,6 @@
                         "startOffsets": "120862,120902,122034,122258,122313,123809,123854,123908,123964,124016,124068,124117,124178",
                         "endColumns": "39,46,42,54,46,44,53,55,51,51,48,60,49",
                         "endOffsets": "120897,120944,122072,122308,122355,123849,123903,123959,124011,124063,124112,124173,124223"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\ishar\\Desktop\\MAD\\Mobile App\\cofee app\\MyApplication\\coffee\\app\\src\\main\\res\\values\\ic_launcher_background.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endColumns": "56",
-                        "endOffsets": "109"
-                    },
-                    "to": {
-                        "startLines": "704",
-                        "startColumns": "4",
-                        "startOffsets": "37142",
-                        "endColumns": "56",
-                        "endOffsets": "37194"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\ishar\\Desktop\\MAD\\Mobile App\\cofee app\\MyApplication\\coffee\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "4,5,22,1,21,24,19,16,15,17,23,18,2,3,26,14,20,6,7,8,9,10,11,12,13,27,25",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "147,200,1104,17,1053,1194,938,779,720,838,1153,897,70,108,1302,682,1010,254,289,324,362,503,548,591,638,1345,1245",
-                        "endColumns": "51,52,47,51,49,49,70,57,57,57,39,39,36,37,41,36,41,33,33,36,139,43,41,45,42,47,55",
-                        "endOffsets": "194,248,1147,64,1098,1239,1004,832,773,891,1188,932,102,141,1339,714,1047,283,318,356,497,542,585,632,676,1388,1296"
-                    },
-                    "to": {
-                        "startLines": "1986,1987,1988,1990,2005,2006,2011,2012,2013,2021,2025,2026,2065,2134,2140,2141,2150,2151,2152,2153,2154,2155,2156,2157,2158,2160,2161",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "131326,131378,131431,131562,133364,133414,133841,133912,133970,134656,135080,135120,140209,150710,151550,151592,152538,152580,152614,152648,152685,152825,152869,152911,152957,153071,153119",
-                        "endColumns": "51,52,47,51,49,49,70,57,57,57,39,39,36,37,41,36,41,33,33,36,139,43,41,45,42,47,55",
-                        "endOffsets": "131373,131426,131474,131609,133409,133459,133907,133965,134023,134709,135115,135155,140241,150743,151587,151624,152575,152609,152643,152680,152820,152864,152906,152952,152995,153114,153170"
                     }
                 },
                 {
@@ -344,23 +361,6 @@
                         "startOffsets": "131479",
                         "endColumns": "82",
                         "endOffsets": "131557"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\ishar\\Desktop\\MAD\\Mobile App\\cofee app\\MyApplication\\coffee\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "5,6,2,7,8,4,3",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "187,225,57,267,306,143,100",
-                        "endColumns": "36,40,41,37,38,42,41",
-                        "endOffsets": "219,261,94,300,340,181,137"
-                    },
-                    "to": {
-                        "startLines": "641,642,643,650,960,961,968",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "32859,32896,32937,33505,56412,56451,56901",
-                        "endColumns": "36,40,41,37,38,42,41",
-                        "endOffsets": "32891,32932,32974,33538,56446,56489,56938"
                     }
                 },
                 {
